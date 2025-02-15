@@ -1,9 +1,10 @@
-# Project Title: Article Scraper and Viewer
+# 🚀 Dil Zaib's Project
 
-## Description
-This project is a web application that scrapes articles from a specified website and stores them in a MongoDB database. The application features a user-friendly interface that displays the articles, styled with CSS and enhanced with JavaScript for dynamic content loading.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi+Guys!;I'm+Dil+Zaib!&font=Fira%20Code&center=true&width=380&height=50">
+</p>
 
-## Project Structure
+## 📌 Project Structure
 ```
 project-folder
 ├── scraper.py          # Contains the web scraping logic
@@ -19,43 +20,73 @@ project-folder
 └── README.md           # Project documentation
 ```
 
-## Setup Instructions
-1. **Clone the repository**:
-   ```
-   git clone <repository-url>
-   cd project-folder
-   ```
+## 📸 Project Preview
+Below are some previews of the application:
 
-2. **Install dependencies**:
-   Ensure you have Python and pip installed, then run:
+![Project Preview](Preview/newsAggregator.gif)
+
+## 🛠 Tech Stack
+
+<div align="center" style="display: inline_block"><br>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
+</div>
+
+## 📌 Features
+
+- Scrapes articles from multiple news channels (Geo News, BOL News, SAMAA News)
+- Displays articles with pagination
+- Navigation bar to switch between different news channels
+- Responsive design with Bootstrap
+
+## 📌 Frontend (HTML, CSS, JavaScript)
+
+- **HTML Files**
+  - `index.html`: Main page displaying the articles with pagination and navigation bar.
+- **CSS Files**
+  - `styles.css`: Styles for the main page and articles.
+- **JavaScript Files**
+  - `scripts.js`: Handles fetching articles from the server and updating the DOM.
+
+## 📌 Backend (Python with Flask)
+
+- **Scraper**
+  - `scraper.py`: Scrapes articles from Geo News, BOL News, and SAMAA News and stores them in MongoDB.
+- **Flask App**
+  - `app.py`: Sets up the Flask server, connects to MongoDB, and serves the articles with pagination.
+- **Routes**
+  - `/api/articles/<channel>`: Fetches articles from the specified news channel with pagination.
+
+## 💻 How to Run the Project
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/dilzaibofficial/news-aggregator-website.git
    ```
+2. Navigate to the project folder and install dependencies:
+   ```sh
+   cd news-aggregator-website
    pip install -r requirements.txt
    ```
-
-3. **Set up MongoDB**:
-   Make sure you have a MongoDB instance running. Update the connection string in `scraper.py` and `app.py` as needed.
-
-4. **Run the scraper**:
-   Execute the scraper to fetch articles:
-   ```
-   python scraper.py
-   ```
-
-5. **Start the web server**:
-   Run the application:
-   ```
+3. Run the Flask app:
+   ```sh
    python app.py
    ```
 
-6. **Access the application**:
-   Open your web browser and go to `http://localhost:5000` to view the articles.
+## 📡 Connect with Me
+<div align="center">
+  <a href="https://dilzaibofficial.github.io/" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/dilzaibofficial" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://x.com/dilzaibofficial" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
+  <a href="https://www.instagram.com/dilzaibofficial" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://youtube.com/@dilzaibofficial" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+  <a href="https://www.facebook.com/share/165J8YXU5k/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>
+</div>
 
-## Usage
-- The application will display the latest articles fetched from the specified website.
-- Articles are stored in the MongoDB database, ensuring that only new articles are added during each scrape.
-
-## Contributing
-Feel free to submit issues or pull requests for improvements or bug fixes.
-
-## License
-This project is licensed under the MIT License.
+---
+🎯 **Dil Zaib** | [GitHub](https://github.com/dilzaibofficial) | Passionate Developer 🚀
