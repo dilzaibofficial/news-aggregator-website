@@ -23,7 +23,7 @@ project-folder
 ## 📸 Project Preview
 Below are some previews of the application:
 
-![Project Preview](Preview/newsAggregator.gif)
+![Project Preview](preview/newsAggregator.gif)
 
 
 ## 🛠 Tech Stack
@@ -90,8 +90,5 @@ Below are some previews of the application:
 </div>
 
 ---
-<<<<<<< HEAD
+
 🎯 **Dil Zaib** | [GitHub](https://github.com/dilzaibofficial) | Passionate Developer 🚀
-=======
-🎯 **Dil Zaib** | [GitHub](https://github.com/dilzaibofficial) | Passionate Developer 🚀
->>>>>>> origin/main
