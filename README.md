@@ -25,6 +25,7 @@ Below are some previews of the application:
 
 ![Project Preview](Preview/newsAggregator.gif)
 
+
 ## 🛠 Tech Stack
 
 <div align="center" style="display: inline_block"><br>
@@ -89,4 +90,8 @@ Below are some previews of the application:
 </div>
 
 ---
+<<<<<<< HEAD
 🎯 **Dil Zaib** | [GitHub](https://github.com/dilzaibofficial) | Passionate Developer 🚀
+=======
+🎯 **Dil Zaib** | [GitHub](https://github.com/dilzaibofficial) | Passionate Developer 🚀
+>>>>>>> origin/main
